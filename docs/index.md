@@ -52,3 +52,20 @@ No account, analytics or cloud relay. Android Connect uses local discovery and y
 [MIT license](https://github.com/GoharAli16/android-connect/blob/main/LICENSE) · [Contribute](https://github.com/GoharAli16/android-connect/blob/main/CONTRIBUTING.md) · [Report an issue](https://github.com/GoharAli16/android-connect/issues)
 
 Independent project by Gohar Ali. Not affiliated with Google or Apple.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Android Connect",
+  "url": "https://goharali16.github.io/android-connect/",
+  "description": "Open-source macOS menu bar app for wireless ADB and Android QR pairing without opening Android Studio.",
+  "operatingSystem": "macOS 13 or newer",
+  "applicationCategory": "DeveloperApplication",
+  "softwareVersion": "0.1.0",
+  "license": "https://github.com/GoharAli16/android-connect/blob/main/LICENSE",
+  "downloadUrl": "https://github.com/GoharAli16/android-connect/releases/latest",
+  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+  "author": {"@type": "Person", "name": "Gohar Ali", "url": "https://github.com/GoharAli16"}
+}
+</script>

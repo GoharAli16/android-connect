@@ -55,7 +55,7 @@ Competing tools demonstrate that the category exists, but do not establish our r
 - Source build and CI verification with a universal macOS artifact.
 - Initial release notes that disclose ad-hoc signing and device-test limits.
 - Public GitHub Pages documentation with a homepage, setup guide and error-specific guide.
-- Jekyll SEO metadata, canonical URLs and social metadata through minima/jekyll-seo-tag; sitemap through jekyll-sitemap; robots.txt. Inspect the rendered deployment before claiming these work.
+- Jekyll SEO metadata, canonical URLs and social metadata through minima/jekyll-seo-tag; sitemap through jekyll-sitemap; informational robots.txt (GitHub project sites cannot set the host-root robots policy). Inspect the rendered deployment before claiming these work.
 - Natural internal links and direct links to source, releases and issues.
 
 ## Next growth work
