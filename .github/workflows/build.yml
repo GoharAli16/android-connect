@@ -16,7 +16,7 @@ jobs:
       - name: Verify app
         run: |
           codesign --verify --deep --strict 'dist/Android Connect.app'
-          lipo 'dist/Android Connect.app/Contents/MacOS/AndroidConnect' -verify_arch arm64 x86_64
+          python3 -c "import subprocess; a=subprocess.check_output(['lipo','-archs','dist/Android Connect.app/Contents/MacOS/AndroidConnect'], text=True).split(); assert set(a)=={'arm64','x86_64'}, a"
       - uses: actions/upload-artifact@v4
         with:
           name: Android-Connect-macOS
