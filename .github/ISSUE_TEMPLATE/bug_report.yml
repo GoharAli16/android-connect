@@ -1,0 +1,19 @@
+name: Bug report
+description: Report a reproducible Android Connect issue
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Describe expected and actual behavior. Remove pairing secrets and personal device details.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: macOS, Android and ADB versions
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true

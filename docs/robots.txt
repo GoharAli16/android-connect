@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://goharali16.github.io/android-connect/sitemap.xml

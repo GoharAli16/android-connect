@@ -1,0 +1,13 @@
+title: Android Connect
+description: Open-source wireless ADB and QR pairing for macOS. Connect Android from your Mac menu bar without opening Android Studio.
+url: https://goharali16.github.io
+baseurl: /android-connect
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+header_pages:
+  - setup.md
+  - troubleshooting.md
+exclude:
+  - keyword-research.md
