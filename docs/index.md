@@ -10,13 +10,11 @@ title: Android Connect — Wireless ADB & QR Pairing for macOS
 
 ## App screenshots
 
-![Android Connect wireless debugging popover with the surrounding desktop background removed](images/android-connect-panel-transparent.png)
+![Android Connect QR pairing panel with pairing credentials and network details hidden](images/android-connect-panel-redacted.png)
 
-*User-provided screenshot edited with AI to remove the surrounding desktop background. The QR is illustrative, not for live pairing. The Local Network error shown is explained in the [troubleshooting guide](troubleshooting.html).*
+![Android Connect device list with device identifiers hidden](images/android-connect-device-redacted.png)
 
-![Android Connect pairing panel showing code fallback, device list and connection controls](images/android-connect-pairing-panel.png)
-
-*Actual user-provided development capture. The original crops the QR area; popover sizing was subsequently fixed. [See the historical pairing-error screenshot and explanation](troubleshooting.html#protocol-fault-couldnt-read-status-message-undefined-error-0).*
+*User-provided screenshots edited for privacy. Pairing data, network endpoints and device identifiers are covered. The first image also has its desktop background removed. The screenshots show interface states, not proof of successful wireless pairing.*
 
 ## Scan. Pair. Debug.
 

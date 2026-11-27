@@ -8,17 +8,11 @@ Android Connect is a small native Swift / SwiftUI app for Android developers who
 
 ## Screenshots
 
-<img src="docs/images/android-connect-panel-transparent.png" alt="Android Connect popover with wireless debugging QR code and Local Network connection error, desktop background removed" width="450">
+<img src="docs/images/android-connect-panel-redacted.png" alt="Android Connect pairing panel with QR credentials and network details covered" width="450">
 
-*User-provided screenshot edited with AI to remove the surrounding desktop background. The QR is illustrative, not for live pairing. This capture shows a Local Network connection error.*
+<img src="docs/images/android-connect-device-redacted.png" alt="Android Connect device list with serial number and device identifiers covered" width="450">
 
-<img src="docs/images/android-connect-pairing-panel.png" alt="Android Connect pairing panel with New QR, pairing-code fallback, device list and manual IP connection" width="450">
-
-*User-provided development screenshot. The QR area is cropped in the original; the popover sizing was subsequently fixed. This is an actual app capture, not a mockup.*
-
-<img src="docs/images/android-connect-pairing-error.png" alt="Android Connect displaying ADB protocol fault: could not read status message, Undefined error 0" width="450">
-
-*Historical pairing error captured during development. The underlying Local Network permission issue was later diagnosed; see the [troubleshooting guide](docs/troubleshooting.md).*
+*User-provided screenshots edited for privacy. QR pairing data, network endpoints and device identifiers are covered. The first image also has its desktop background removed. These images illustrate the interface, not successful wireless pairing.*
 
 ## Features
 
