@@ -8,6 +8,10 @@ Android Connect is a small native Swift / SwiftUI app for Android developers who
 
 ## Screenshots
 
+<img src="docs/images/android-connect-panel-transparent.png" alt="Android Connect popover with wireless debugging QR code and Local Network connection error, desktop background removed" width="450">
+
+*User-provided screenshot edited with AI to remove the surrounding desktop background. The QR is illustrative, not for live pairing. This capture shows a Local Network connection error.*
+
 <img src="docs/images/android-connect-pairing-panel.png" alt="Android Connect pairing panel with New QR, pairing-code fallback, device list and manual IP connection" width="450">
 
 *User-provided development screenshot. The QR area is cropped in the original; the popover sizing was subsequently fixed. This is an actual app capture, not a mockup.*
