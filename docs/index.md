@@ -8,6 +8,12 @@ title: Android Connect — Wireless ADB & QR Pairing for macOS
 
 [Download Android Connect](https://github.com/GoharAli16/android-connect/releases/latest) · [View source on GitHub](https://github.com/GoharAli16/android-connect)
 
+## App screenshot
+
+![Android Connect pairing panel showing code fallback, device list and connection controls](images/android-connect-pairing-panel.png)
+
+*Actual user-provided development capture. The original crops the QR area; popover sizing was subsequently fixed. [See the historical pairing-error screenshot and explanation](troubleshooting.html#protocol-fault-couldnt-read-status-message-undefined-error-0).*
+
 ## Scan. Pair. Debug.
 
 Open Android Connect, then scan its QR from **Developer options → Wireless debugging → Pair device with QR code** on your phone. Keep the menu open as the app discovers and pairs the phone and attempts its debugging connection.

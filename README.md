@@ -6,6 +6,16 @@
 
 Android Connect is a small native Swift / SwiftUI app for Android developers who use terminal tools, Flutter, VS Code, scrcpy, or Android Studio. It uses your existing Android SDK Platform-Tools and the standard ADB server, so connected devices are available to other ADB tools.
 
+## Screenshots
+
+<img src="docs/images/android-connect-pairing-panel.png" alt="Android Connect pairing panel with New QR, pairing-code fallback, device list and manual IP connection" width="450">
+
+*User-provided development screenshot. The QR area is cropped in the original; the popover sizing was subsequently fixed. This is an actual app capture, not a mockup.*
+
+<img src="docs/images/android-connect-pairing-error.png" alt="Android Connect displaying ADB protocol fault: could not read status message, Undefined error 0" width="450">
+
+*Historical pairing error captured during development. The underlying Local Network permission issue was later diagnosed; see the [troubleshooting guide](docs/troubleshooting.md).*
+
 ## Features
 
 - **Wireless ADB QR pairing:** scan with Android’s Wireless debugging scanner.

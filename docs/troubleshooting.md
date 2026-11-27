@@ -17,6 +17,10 @@ In this project's Pixel 8 Pro development session, Bonjour found the phone while
 
 ## “protocol fault (couldn't read status message): Undefined error: 0”
 
+![ADB pairing protocol fault displayed in Android Connect](images/android-connect-pairing-error.png)
+
+*Actual development screenshot supplied by the user. In this session, server logs exposed a Local Network permission failure; the screenshot alone does not establish the cause.*
+
 This can hide the underlying pairing failure. Android Connect checks new ADB server log lines for a matching “No route to host” error. If logs are unavailable, the cause remains unknown. Keep Android's QR scanner open, check reachability, generate a New QR, and retry. Do not assume that resetting phone permissions or changing a Wi-Fi password will fix it.
 
 ## Phone says the QR password is incorrect
